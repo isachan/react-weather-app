@@ -1,5 +1,5 @@
-import WeatherApp from './WeatherApp';
-import './App.scss';
+import WeatherApp from './components/WeatherApp';
+import './styles/App.scss';
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './TodaysWeather.scss';
+import '../../styles/TodaysWeather.scss';
 
 const TodaysWeather = ({
   cityInput,
@@ -15,11 +15,11 @@ const TodaysWeather = ({
       <div className='todays-weather__body'>
         <div className='todays-weather__inputs'>
           <div className='todays-weather__input'>
-            <label for='city'>City:</label>
+            <label>City:</label>
             {cityInput}
           </div>
           <div className='todays-weather__input'>
-            <label for='country'>Country:</label>
+            <label>Country:</label>
             {countryInput}
           </div>
         </div>

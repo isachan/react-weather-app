@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 
-import './SearchHistory.scss';
+import '../../styles/SearchHistory.scss';
 
 const SearchHistory = ({ data, fetchDataById, setNewData, setIsShow }) => {
   //assumption: clearing of duplicate entries

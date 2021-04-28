@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-import useInput from './useInput';
-import useFetch from './useFetch';
+import useInput from '../utils/hooks/useInput';
+import useFetch from '../utils/hooks/useFetch';
 
-import WeatherCard from './WeatherCard';
-import SearchHistory from './SearchHistory';
-import TodaysWeather from './TodaysWeather';
-import './WeatherApp.scss';
+import WeatherCard from './WeatherCard/WeatherCard';
+import SearchHistory from './SearchHistory/SearchHistory';
+import TodaysWeather from './TodaysWeather/TodaysWeather';
+import '../styles/WeatherApp.scss';
 
 const WeatherApp = () => {
   const [cityValue, cityInput, setCityValue] = useInput({

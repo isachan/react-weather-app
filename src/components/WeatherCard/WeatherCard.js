@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 
-import './WeatherCard.scss';
+import '../../styles/WeatherCard.scss';
 
 const WeatherCard = ({ data, isShow }) => {
   const lastData = data[data.length - 1];
